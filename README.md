@@ -18,7 +18,7 @@ This script automates the process of building YouTube playlists by searching for
    pip install google-api-python-client google-auth google-auth-oauthlib
 3. Login to Google Cloud Console (https://console.cloud.google.com) and create a new project (CTRL + O or CMD + O)
 4. Create Oauth Credentials: https://console.cloud.google.com/apis/credentials
-5. Download/save Oauth credential client_secret.json
+5. Download/save Oauth credential client_secret.json to the repository folder
 6. Add yourself as test user for your app by editing your audience https://console.cloud.google.com/auth/audience
 7. Create a Playlist on Youtube (you'll need the Playist ID). Open any video, click Save, In the new window, Create playlist (only way I see to do this if you have existing playists)
 7. Open your new playlist in a web browser and grab the playist ID from the URL.  Starts with PLxxxxxxxxxxxxxxxxxxx
